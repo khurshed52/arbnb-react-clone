@@ -1,0 +1,15 @@
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.menu a {
+    color: #302d2d;
+    margin-right: 1rem;
+}
+
+.logo img {
+    width: 55px;
+}
