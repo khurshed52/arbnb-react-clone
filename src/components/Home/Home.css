@@ -4,7 +4,7 @@
 
 .banner img  {
     width: 100%;
-    border-radius: 17px;
+    border-radius: 0px 0px 17px 17px;
     
 }
 
@@ -15,9 +15,16 @@
     width: 500px;
     top: 0;
     height: 100%;
-    border-radius: 17px 0 0 17px;
+    border-radius: 0px 0 0 17px;
     padding: 3rem  1rem 3rem 1rem;
 }
+
+.search_date {
+    border-radius: 17px, 17px, 0, 0;
+    width: 100%;
+    text-transform: capitalize !important;
+}
+
 
 .card_block {
     min-height: 335px;
@@ -35,3 +42,19 @@
   font-size: 15px;
 }  
     
+.MuiPaper-elevation1 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+}
+
+.banner__search {
+    position: relative;
+}
+
+.date_picker {
+    width: 400px;
+    position: absolute;
+    top: 36px;
+    z-index: 999999;
+    background: #fff;
+    left: 30%;
+}

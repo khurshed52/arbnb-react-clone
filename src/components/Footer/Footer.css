@@ -1,0 +1,9 @@
+footer {
+    background: #ded5d5;
+    padding: 1rem;
+    border-top: 1px solid #b5b4b4;
+}
+
+footer p {
+    margin:0px
+}

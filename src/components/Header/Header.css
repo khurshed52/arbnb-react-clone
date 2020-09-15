@@ -7,9 +7,63 @@
 
 .menu a {
     color: #302d2d;
-    margin-right: 1rem;
+    padding: 0px 1rem 1rem 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: currentColor;
+    border-bottom: 3px solid #f1475d;
+}
+
+.menu a .MuiSvgIcon-root {
+    color: #716f6f;
+    vertical-align: sub;
+    margin-right: 0.5rem;
 }
 
 .logo img {
     width: 55px;
+}
+
+.header_input {
+    border: 1px solid #afaeae;
+    padding: 0.1rem;
+    display: flex;
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.header_input:hover {
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.header_input input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    color: #969393;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.header_input .MuiSvgIcon-root {
+    fill: #fff;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.header_info {
+    display: flex;
+}
+
+.header_input .MuiFab-primary {
+    color: #fff;
+    background-color: #f1495a;
 }

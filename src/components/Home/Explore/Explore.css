@@ -1,0 +1,75 @@
+
+/***********explore***********/
+.uae_bg {
+    padding-top: 25px;
+    background: url('../../../images/uae.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+.uae_bg::before {
+    content: '';
+    background: rgb(3 14 71 / 79%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.uae_bg h2 , .uae_bg p{
+    color: #fff;
+}
+
+.uae_bg .item img {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+    border-radius: 20px;
+    min-height: 350px;
+}
+
+.uae_bg .item {
+    position: relative;
+}
+
+.uae_bg .item h5 {
+    position: absolute;
+    bottom: -8px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.829);
+    border-radius: 0px 0px 20px 20px;
+    padding: 0.4rem;
+    color: #fff;
+    text-align: center;
+}
+
+.container.top {
+    position: relative;
+}
+
+.uae_bg .slick-list{padding:0 20% 0 0 !important;}
+
+.uae_bg .slick-slide {
+    margin: 0 10px !important;
+}
+
+
+.slick-prev:before, .slick-next:before {
+    font-size: 35px;
+    z-index: 9999999;
+}
+
+.slick-next {
+    right: -3px;
+}
+
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}

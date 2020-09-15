@@ -14,7 +14,7 @@ img {
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
 }
 
 .App {
@@ -92,3 +92,6 @@ section {
     transition: opacity 150ms linear;
 }
 
+button:focus {
+  outline: 0 !important;
+}

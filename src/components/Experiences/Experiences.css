@@ -1,0 +1,50 @@
+.experiences_list {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.experiences_list img {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.experiences_list button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+figure {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.slick-slide {
+    margin: 0 10px !important;
+}
+
+.results {
+    margin-bottom: 2rem;
+}
+
+.slick-dots li button:before {
+    font-size: 1rem;
+}

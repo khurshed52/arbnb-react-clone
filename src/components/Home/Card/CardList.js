@@ -8,7 +8,7 @@ const CardList = (props)=> {
         <React.Fragment>
             <Col xs="12" sm="4">
             <Card className="card_block"> 
-                <img src={props.imgUrl} />
+                <img src={props.imgUrl} alt="img" />
                 <h3> {props.title}</h3>
                 <p> {props.desc}</p>
                 </Card>  

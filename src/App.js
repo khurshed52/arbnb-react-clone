@@ -1,20 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Button from '@material-ui/core/Button';
-import Fab from '@material-ui/core/Fab';
-import AddIcon from '@material-ui/icons/Add';
 import Home from './components/Home/Home';
-import Header from './components/Header/Header'
+import Experiences from './components/Experiences/Experiences';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import { Container } from 'reactstrap';
-import { Link, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { CSSTransition, TransitionGroup} from 'react-transition-group';
-
+import ReactNotification from 'react-notifications-component'
 function App() {
   return (
     <React.Fragment>
+       <div className="container">
+         <ReactNotification/>
+       </div>
         <Container fixed>
            <Header/>
+          </Container>
           <Route render={({location}) => (
               <TransitionGroup>
               <CSSTransition
@@ -24,12 +26,13 @@ function App() {
                 >
                   <Switch location={location}>
                   <Route exact path="/" component={Home} />
+                  <Route exact path="/experiences" component={Experiences} />
                </Switch>
                 </CSSTransition>
                 </TransitionGroup>
           )}/>
       
-        </Container>
+        <Footer/>
     </React.Fragment>
   );
 }
