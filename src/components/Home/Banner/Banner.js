@@ -32,7 +32,7 @@ const Banner = (props)=>{
         autoplay:true,
         autoplaySpeed:3000,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
       };
     return (
         <div>

@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 import HotelIcon from '@material-ui/icons/Hotel';
 import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 import MouseIcon from '@material-ui/icons/Mouse';
+
 const Nav = (props)=> {
     return(
         <>
-         <Link to="/"> <HotelIcon/>Place to Stay</Link>
-         <Link to="/experiences"> <PeopleOutlineIcon/>Experiences</Link>
-         <Link to="/"> <MouseIcon/>Online Experiences</Link>
+         <Link to="/"> <HotelIcon/> <span> Place to Stay</span></Link>
+         <Link to="/experiences"> <PeopleOutlineIcon/> <span> Experiences </span></Link>
+         <Link to="/contact"> <MouseIcon/><span> Online Experiences</span> </Link>
         </>
     )
 }

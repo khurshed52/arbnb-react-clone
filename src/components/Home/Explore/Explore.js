@@ -13,6 +13,15 @@ const Explore = (props)=> {
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '10%',
+        responsive: [
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            ]
       };
 
     return (

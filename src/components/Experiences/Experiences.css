@@ -42,9 +42,27 @@ figure:hover img {
 }
 
 .results {
-    margin-bottom: 2rem;
+    margin: 3rem 0 2rem 0;
 }
 
 .slick-dots li button:before {
-    font-size: 1rem;
+    font-size: 15px;
+}
+
+.results .slick-prev:before, .results .slick-next:before {
+    color: #888787;
+    opacity: 1;
+}
+
+.results .slick-next {
+    right: 18px;
+}
+
+.results .slick-prev {
+    right: 58px;
+    left: inherit !important;
+}
+
+.results .slick-prev, .results .slick-next {
+    top: -7%;
 }

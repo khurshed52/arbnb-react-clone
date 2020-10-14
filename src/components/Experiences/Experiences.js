@@ -5,7 +5,7 @@ import Slider from "react-slick";
 const Experiences = ()=> {
 
   const expSlider = {
-    dots: true,
+    dots: false,
     arrows: true,
     infinite: true,
     speed: 500,

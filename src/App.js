@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './components/Home/Home';
 import Experiences from './components/Experiences/Experiences';
+import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import { Container } from 'reactstrap';
@@ -27,6 +28,7 @@ function App() {
                   <Switch location={location}>
                   <Route exact path="/" component={Home} />
                   <Route exact path="/experiences" component={Experiences} />
+                  <Route exact path="/contact" component={Contact} />
                </Switch>
                 </CSSTransition>
                 </TransitionGroup>
